@@ -108,6 +108,7 @@ body {
 }
 
 .slider {
+    min-width: max-content;
     background-image: url(images/sliderbg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,26 +156,28 @@ body {
 
 
 @media (max-width: 767px) {
-    .header, .mainmenu {
+    .header, .mainmenu, .slider {
         min-width: 290px;
     }
-    .container, .slider {
+    .container {
         width: 100%;
-    }
-
+    } 
     .rowheader {
         height: 120px;
         flex-direction: column;
         align-items: baseline;
     }
-
     .menu {
         width: 100%;
         overflow: auto;
         white-space: nowrap;
         justify-content: space-between;
     }
+    .titleslide {
+        font-size: 30px;
+    }
     .viewtuorbutton button {
         margin-top: 15px;
     }
+    
 }
