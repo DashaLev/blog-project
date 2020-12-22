@@ -155,7 +155,10 @@ body {
 
 
 @media (max-width: 767px) {
-    .container {
+    .header, .mainmenu {
+        min-width: 290px;
+    }
+    .container, .slider {
         width: 100%;
     }
 
@@ -166,6 +169,12 @@ body {
     }
 
     .menu {
+        width: 100%;
+        overflow: auto;
+        white-space: nowrap;
         justify-content: space-between;
+    }
+    .viewtuorbutton button {
+        margin-top: 15px;
     }
 }
