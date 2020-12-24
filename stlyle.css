@@ -201,7 +201,6 @@ body {
 .memberphoto:hover div {
     color: white;
 }
-
 .membername {
     padding-left: 20px;
     padding-top: 20px;
@@ -335,9 +334,17 @@ body {
     
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-    .photo>a>img {
+    .memberphoto>a>img {
         width: 230px;
-        height: 300px;
+    }
+    .twiter {
+        left: 39px;
+    }
+    .facebook {
+        left:91px;
+    }
+    .linkdin {
+        right: 37px;
     }
 }
 @media (min-width: 1200px) {
