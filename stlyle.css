@@ -256,6 +256,7 @@ body {
 }
 .work {
     border-left: 10px solid #4e5a62;
+    color: white;
 }
 .work-picture {
     width: 100%;
