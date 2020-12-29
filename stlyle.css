@@ -145,8 +145,8 @@ body {
     padding-bottom: 25px;
 }
 .social-networks a {
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     cursor: pointer;
 }
@@ -194,10 +194,6 @@ body {
     max-width: 88%;
     padding-left: 15px;
 }
-/* .team-members {
-    display: flex;
-    justify-content: center;
-} */
 
 .member-card {
     margin-bottom: 30px;
@@ -325,10 +321,6 @@ body {
     }
     .logo {
         padding-bottom: 15px;
-    }
-    .social-networks a {
-        width: 53px;
-        height: 53px;
     }
     .phrase-number  {
         height: 34px;
