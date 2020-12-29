@@ -326,6 +326,10 @@ body {
     .logo {
         padding-bottom: 15px;
     }
+    .social-networks a {
+        width: 53px;
+        height: 53px;
+    }
     .phrase-number  {
         height: 34px;
         line-height: 34px;
