@@ -652,7 +652,7 @@ body {
     }
 
     .slider {
-        padding: 225px 0 250px 0;
+        height: 660px;
         display: flex;
         align-items: center;
     }
