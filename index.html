@@ -14,24 +14,27 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="row flex-wrap align-items">
-                <div class="col-xs-12 logo col-md-2">
+            <div class="row flex-wrap header-menu align-items">
+                <div class="col-md-2">
                     <a href="">
                         <img src="images/modest.png" alt="LogoHere" />
                     </a>
                 </div>
-                <div class="col-xs-12 col-md-8">
-                    <nav>
-                        <ul class="menu">
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">ABOUT</a></li>
-                            <li><a href="">WORK</a></li>
-                            <li><a href="">TEAM</a></li>
-                            <li><a href="">SERVICES</a></li>
-                            <li><a href="">FEATURE</a></li>
-                            <li><a href="">CONTACT</a></li>
-                        </ul>
-                    </nav>
+                <div class="col-md-8">
+                    <ul class="menu novigation hiden-menu">
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">WORK</a></li>
+                        <li><a href="">TEAM</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">FEATURE</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                    <div class="nav-mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
                 <div class="col-xs-12 hide-xs col-sm-4 col-md-2">
                     <form class="search">
@@ -478,7 +481,7 @@
                 </iframe>
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row flex-wrap">
                     <div class="col-xs-12 col-md-6">
                         <div class="contact-information">
                             CONTACT INFORMATION
@@ -488,6 +491,28 @@
                                 dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida</p>
                             <p class="contact-description-second-p">Cras fermentum elit quis magna congue, <span>vel
                                     sodales</span> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="modal-window">
+                            <form action="" method="" class="feedback hiden">
+                                <div class="flex-sm">
+                                    <div class="form-name">
+                                        <span>YOUR NAME</span>                            
+                                        <div><input type="text" name="UserName"></div>
+                                    </div>
+                                    <div class="form-email">
+                                        <span>YOUR EMAIL</span>
+                                        <div><input type="email" name="UserEmail"></div>
+                                    </div>
+                                </div>
+                                <div class="form-text">
+                                    <div>YOUR MESSAGE</div>
+                                    <textarea></textarea>
+                                </div>
+                                <input type="submit" value="SEND MESSAGE" class="form-send-btn">
+                            </form>
+                            <button class="open-form-btn">OPEN FORM</button>
                         </div>
                     </div>
                 </div>
@@ -514,6 +539,7 @@
             </div>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>
