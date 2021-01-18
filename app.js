@@ -12,7 +12,6 @@ mobileMenu.addEventListener("click",function(){
 })
 
 // contact form
-// mobile menu
 let formFeedback = document.querySelector(".feedback");
 let openFormBtn = document.querySelector(".open-form-btn");
 
