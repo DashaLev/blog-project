@@ -675,6 +675,10 @@ body {
     .show-button {
         margin-left: 15px;
     }
+    section:target {
+        position:sticky;
+        top:61px;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -734,9 +738,10 @@ body {
     .form-text textarea {
         height: 130px;
     }
-   
-
-
+    section:target {
+        position:sticky;
+        top:130px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -883,6 +888,10 @@ body {
 
     .footer-info {
         font-size: 14px;
+    }
+    section:target {
+        position:sticky;
+        top:81px;
     }
 }
 
