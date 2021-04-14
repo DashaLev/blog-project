@@ -676,8 +676,7 @@ body {
         margin-left: 15px;
     }
     section:target {
-        position:sticky;
-        top:61px;
+        padding-top: 75px;
     }
 }
 
@@ -693,8 +692,7 @@ body {
         bottom: 175px;
     }
      section:target {
-        position:sticky;
-        top:130px;
+        padding-top: 130px;
     }
 }
 
@@ -891,8 +889,7 @@ body {
         font-size: 14px;
     }
     section:target {
-        position:sticky;
-        top:81px;
+        padding-top: 40px;
     }
 }
 
