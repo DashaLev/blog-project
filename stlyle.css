@@ -692,6 +692,10 @@ body {
         left: -30px;
         bottom: 175px;
     }
+     section:target {
+        position:sticky;
+        top:130px;
+    }
 }
 
 
@@ -738,10 +742,7 @@ body {
     .form-text textarea {
         height: 130px;
     }
-    section:target {
-        position:sticky;
-        top:130px;
-    }
+   
 }
 
 @media (min-width: 992px) {
